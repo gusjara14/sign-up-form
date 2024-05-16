@@ -1,3 +1,7 @@
+* {
+    border: 1px solid red;
+}
+
 @font-face {
     font-family: 'alex_brushregular';
     src: url('fonts/alexbrush-regular-webfont.woff2') format('woff2'),
@@ -12,7 +16,16 @@
     font-size: 4rem;
     color: red;
 }
-/* 
-body {
-    font-size: 24px;
-} */
+
+.webpage {
+    display:flex;
+    flex-direction: row;
+}
+
+.content {
+    flex:2;
+}
+
+.sidebar {
+    flex:1;
+}
