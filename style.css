@@ -59,6 +59,14 @@ form {
     justify-content:center;
 }
 
+form > div{
+    width: 800px;
+}
+
+/* input, label{
+    width:100px;
+} */
+
 .section-1, .section-2, .section-3 {
     flex:1;
     display:flex;
