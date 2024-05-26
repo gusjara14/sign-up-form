@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:0px;
     padding:0px;
 }
@@ -133,6 +133,10 @@ label, input{
 input:focus {
     border: 4px solid rgb(0, 139, 0);
     box-shadow: 1px 1px 10px;
+}
+
+input:invalid {
+    border: 4px solid red;
 }
 
 .left-form, .right-form {

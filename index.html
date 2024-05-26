@@ -37,7 +37,7 @@
                         </div>
                         <div class="form-control">
                             <label for="password_initial">PASSWORD</label>
-                            <input type="password" id="password_initial" name="password_initial">
+                            <input type="password" id="password_initial" name="password_initial" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                         </div>
                     </div>
                     <div class="right-form">
@@ -51,7 +51,7 @@
                         </div>
                         <div class="form-control">
                             <label for="password_confirm">CONFIRM PASSWORD</label>
-                            <input type="password" id="password_confirm" name="password_confirm">
+                            <input type="password" id="password_confirm" name="password_confirm" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                         </div>
                     </div>
                 </form>
