@@ -168,8 +168,9 @@ input:invalid {
     position:fixed;
     bottom:5px;
     left:auto; 
+    color:whitesmoke
 }
 
-a, .photo-credit {
+.photo-credit-link {
     color:whitesmoke
 }
